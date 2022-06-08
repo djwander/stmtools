@@ -18,6 +18,8 @@ Note that Physics.py only contains theory or literature values and laws but no c
 Finally, the file **SionludiMeasurement.py** implements code to read the state (here: the temperature) of our Sionludi dilution refrigerator.
 This is a very specific example for how to integrate the temperature measurement into the NanonisMeasurement classes. If you use a diferent refrigerator, you might want to write your own class implementing a similar behavior.
 
+Sometimes it is useful to manually fit superconducting spectra. With the two interactive notebooks in the **Tools** folder, you can do this in an efficient way.
+
 ## Getting started
 For representing 1D and 2D data, the package uses the simscidapy package. 
 I therefore reccomend to start by taking a look at simscidapy and the examples it provides to understand how to use it for easy and quick data analysis.
